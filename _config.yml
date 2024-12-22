@@ -1,2 +1,26 @@
-theme: minima
-author:Hug li
+remote_theme: just-the-docs/just-the-docs
+
+title: Online Tools Collection
+description: Free browser-based tools
+baseurl: ""
+url: "https://hughugai.github.io/"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections
+collections:
+  tools:
+    output: true
+    permalink: /tools/:path/
+
+# Default layouts
+defaults:
+  - scope:
+      path: ""
+      type: "tools"
+    values:
+      layout: "tool"
