@@ -1,3 +1,3 @@
-# HUG TECH
+# HUG HUG
 
 [first](/docs/first.md)
