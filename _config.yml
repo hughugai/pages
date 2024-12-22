@@ -1,5 +1,7 @@
-title: HUG online tools
-description: A collection of free, privacy-focused online tools
+remote_theme: just-the-docs/just-the-docs
+
+title: Online Tools Collection
+description: Free browser-based tools
 baseurl: ""
 url: "https://hughugai.github.io/"
 
