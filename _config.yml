@@ -1,2 +1,24 @@
-theme: minima
-author: Hug li
+title: HUG online tools
+description: A collection of free, privacy-focused online tools
+baseurl: ""
+url: "https://hughugai.github.io/"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections
+collections:
+  tools:
+    output: true
+    permalink: /tools/:path/
+
+# Default layouts
+defaults:
+  - scope:
+      path: ""
+      type: "tools"
+    values:
+      layout: "tool"
