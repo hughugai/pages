@@ -1,3 +1,3 @@
 # HUG HUG
 
-[first](/docs/first.md)
+[Image Resize Online](docs/image-resize-en.md)
